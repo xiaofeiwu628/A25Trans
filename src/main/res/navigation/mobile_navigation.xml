@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_totalshow">
+
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.timemangertrans.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_totalshow"
+        android:name="com.example.timemangertrans.ui.TotalShow.TotalShowFragment"
+        android:label="@string/title_totalshow"
+        tools:layout="@layout/fragment_totalshow" />
+
+    <fragment
+        android:id="@+id/navigation_showwei"
+        android:name="com.example.timemangertrans.ui.ShowWei.ShowWeiFragment"
+        android:label="@string/title_showwei"
+        tools:layout="@layout/fragment_showwei" />
+</navigation>

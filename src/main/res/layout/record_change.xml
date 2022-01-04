@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_record_change_overname"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="请输入名字"></TextView>
+
+        <EditText
+            android:id="@+id/edittext_record_change_name"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:visibility="visible"></EditText>
+
+        <TextView
+            android:id="@+id/textview_record_change_showname"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:visibility="gone"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="请选择类型"></TextView>
+
+        <Spinner
+            android:id="@+id/spinner_record_change_typeuse"
+            android:layout_width="match_parent"
+            android:layout_height="36dp" />
+
+        <Button
+            android:id="@+id/button_record_change_addtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加新类型" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择计划开始时间" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="日期"
+                android:textColor="#7F7F7F"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_datedisplay_start"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bt_settingdate_start"
+                android:layout_width="111dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="#00A2E8"
+                android:text="设置日期"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="时间"
+                android:textColor="#7F7F7F"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_timedisplay_start"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bt_settingtime_start"
+                android:layout_width="111dp"
+                android:layout_height="103dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="#00A2E8"
+                android:text="设置时间"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择计划结束时间" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="日期"
+                android:textColor="#7F7F7F"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_datedisplay_end"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bt_settingdate_end"
+                android:layout_width="111dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="#00A2E8"
+                android:text="设置日期"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="时间"
+                android:textColor="#7F7F7F"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_timedisplay_end"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bt_settingtime_end"
+                android:layout_width="111dp"
+                android:layout_height="103dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="#00A2E8"
+                android:text="设置时间"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_record_change_affirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确认" />
+
+        <Button
+            android:id="@+id/button_record_change_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:text="添加" />
+    </LinearLayout>
+
+</LinearLayout>

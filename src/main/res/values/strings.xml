@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">喵</string>
+    <string name="title_satistics">查看全部</string>
+    <string name="title_notifications">具名查询</string>
+    <string name="title_totalshow">喵</string>
+    <string name="title_showwei">时段查询</string>
+</resources>
