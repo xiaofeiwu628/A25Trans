@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_totalshow"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_satistics" />
+    <item
+        android:id="@+id/navigation_showwei"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_showwei" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/title_notifications" />
+
+</menu>
